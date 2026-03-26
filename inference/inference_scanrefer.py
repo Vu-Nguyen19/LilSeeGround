@@ -100,11 +100,19 @@ def process_room(
     use_image=False,
     model_name=None,
     verbose=True,
+    num_queries=None,
 ):
     """Process a single room with queries and predictions."""
     # Load annotations and bounding boxes
     data = load_json(language_annotation_file)
     queries = [it for it in data if it["scan_id"] == room]
+
+    # Sort and slice queries
+    queries = sorted(queries, key=lambda x: int(x["target_id"]))
+    if num_queries is not None:
+        queries = queries[:num_queries]
+        print(f"Limiting to first {num_queries} queries.")
+
     gt_bboxes = load_bboxes(room, gt_bbox_dir, "gt")
     mask3d_bboxes = load_bboxes(room, pred_bbox_dir, "pred")
     object_names = [obj["target"] for obj in mask3d_bboxes.values()]
@@ -172,11 +180,12 @@ def process_room(
             anchors,
             center,
             scan_pc,
-            save_dir=f"/remote-home/rongli/projection_img/{dataset}/qwen2-vl-72b/{room}/{i}",
+            save_dir=os.path.join(output_dir, "projection_img", room, str(i)),
             image_size=680,
             draw_id=True,
             draw_img=True,
         )
+
 
         # Process query with OpenAI
         response = process_query(
@@ -289,6 +298,12 @@ if __name__ == "__main__":
         default="/root/Qwen2-VL/SeeGround/data/scannet/scannetv2_val.txt",
         help="Path to the validation split file.",
     )
+    parser.add_argument(
+        "--num_queries",
+        type=int,
+        default=None,
+        help="Number of queries to process per room. If None, process all.",
+    )
 
     args = parser.parse_args()
 
@@ -313,4 +328,5 @@ if __name__ == "__main__":
             openai_api_base=args.openai_api_base,
             use_image=args.use_image,
             model_name=args.model_name,
+            num_queries=args.num_queries,
         )

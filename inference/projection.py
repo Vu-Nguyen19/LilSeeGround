@@ -91,9 +91,22 @@ def render_point_cloud_with_pytorch3d_with_objects(
         width, height = color_image.size
         color_image = Image.new("RGB", (width, height), (255, 255, 255))
 
-    font = ImageFont.truetype(
-        "/usr/share/fonts/truetype/freefont/FreeSans.ttf", 15, encoding="unic"
-    )
+    font_paths = [
+        "/usr/share/fonts/truetype/freefont/FreeSans.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "FreeSans.ttf"
+    ]
+    font = None
+    for path in font_paths:
+        try:
+            font = ImageFont.truetype(path, 15)
+            break
+        except OSError:
+            continue
+    
+    if font is None:
+        font = ImageFont.load_default()
 
     color = (128, 128, 128)  # grey color
     annotate_image(

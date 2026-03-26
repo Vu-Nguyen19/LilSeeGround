@@ -61,7 +61,7 @@ def load_pc(scan_id, keep_background=False, scan_dir=""):
             - batch_pcds (torch.Tensor): Batch of point clouds with sampled points.
     """
     pcds, colors, _, instance_labels = torch.load(
-        os.path.join(scan_dir, "pcd_with_global_alignment", "%s.pth" % scan_id)
+        os.path.join(scan_dir, "pcd_with_global_alignment", "%s.pth" % scan_id), weights_only=False
     )
     obj_labels = json.load(
         open(os.path.join(scan_dir, "instance_id_to_name", "%s.json" % scan_id))
@@ -225,7 +225,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model_name",
         type=str,
-        default="Qwen2-VL-72B-Instruct",
+        default="Qwen3-VL-32B-Instruct",
         help="Model name for OpenAI API.",
     )
     parser.add_argument(
