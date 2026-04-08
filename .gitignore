@@ -168,3 +168,5 @@ data/ScanRefer/
 data/seeground_object_lookup_table/
 output/
 .download-scannet.py
+data/scannet
+outputs

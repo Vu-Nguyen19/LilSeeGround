@@ -53,13 +53,14 @@ To use your existing vLLM server (e.g., running `Qwen3-32B` in an `agile` enviro
 **Warning:** Ensure `--anno_file` points to an actual `.json` file. If your ScanRefer folder is named `ScanRefer_filtered_val.json`, you need to look inside it for the actual JSON file (e.g., `ScanRefer_filtered_val.json/ScanRefer_filtered_val.json`).
 
 ```bash
-python parse_query/generate_query_data_scanrefer.py \
-    --scan_id_file /home/nvtnghia/project/SeeGround/data/scannet/scene_list.txt \
-    --anno_file data/ScanRefer/ScanRefer_filtered_val.json \
-    --openai_api_base http://localhost:8000/v1 \
-    --model_name Qwen/Qwen3-VL-8B-Instruct \
-    --prompt_file prompts/parsing_query.txt \
-    --scan_data /home/nvtnghia/project/SeeGround/data/ScanRefer/referit3d/scan_data \
+export LD_LIBRARY_PATH=/nfs/turbo/coe-mavens/nvtnghia/conda/envs/seeground/lib:$LD_LIBRARY_PATH
+python parse_query/generate_query_data_scanrefer.py 
+    --scan_id_file /home/nvtnghia/project/SeeGround/data/scannet/scene_list.txt \s
+    --anno_file data/ScanRefer/ScanRefer_filtered_val.json 
+    --openai_api_base http://localhost:8000/v1 
+    --model_name Qwen/Qwen3-VL-8B-Instruct 
+    --prompt_file prompts/parsing_query.txt 
+    --scan_data /home/nvtnghia/project/SeeGround/data/ScanRefer/referit3d/scan_data 
     --label_map_file /home/nvtnghia/project/SeeGround/data/ScanRefer/referit3d/annotations/meta_data/scannetv2-labels.combined.tsv --save_dir data/scanrefer/query
 ```
 
@@ -78,12 +79,13 @@ The `inference/inference_scanrefer.py` script performs the final 3D grounding. I
 ```bash
 python inference/inference_scanrefer.py \
     --language_annotation_dir data/scanrefer/query/ \
-    --gt_bbox_dir data/scanrefer/object_lookup_table/gt \
-    --pred_bbox_dir data/scanrefer/object_lookup_table/pred \
-    --pcd_dir /home/nvtnghia/project/SeeGround/data/ScanRefer/referit3d/scan_data/pcd_with_global_alignment/ \
+    --gt_bbox_dir data/seeground_object_lookup_table/scanrefer/gt \
+    --pred_bbox_dir data/seeground_object_lookup_table/scanrefer/pred \
+    --pcd_dir
+      /home/nvtnghia/project/SeeGround/data/ScanRefer/referit3d/scan_data/pcd_with_global_alignment/ \
     --output_dir outputs/scanrefer_results \
     --model_name Qwen/Qwen3-VL-8B-Instruct \
-    --openai_api_base http://localhost:8000/v1
+    --openai_api_base http://gl1517.arc-ts.umich.edu:8000/v1
 ```
 
 ### Why two bbox paths?
