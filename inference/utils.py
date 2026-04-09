@@ -137,7 +137,7 @@ def load_scene_pcd(room, scan_dir='/remote-home/share/vg_datasets/referit3d/scan
     # color = np.asarray(pcd.colors)
 
     pcds, colors, _, instance_labels = torch.load(
-        os.path.join(scan_dir, '%s.pth' % room))
+        os.path.join(scan_dir, '%s.pth' % room), weights_only=False)
     
     scan_pc = np.concatenate((pcds, colors/255), axis=1).astype("float32")
     center = np.mean(scan_pc[:, :3], axis=0)

@@ -28,7 +28,7 @@ def load_point_cloud(scan_id, keep_background=False, scan_dir=None):
             - batch_pcds (torch.Tensor): Batch of point clouds with sampled points.
     """
     pcds, colors, _, instance_labels = torch.load(
-        os.path.join(scan_dir, "pcd_with_global_alignment", f"{scan_id}.pth")
+        os.path.join(scan_dir, "pcd_with_global_alignment", f"{scan_id}.pth"), weights_only=False
     )
     obj_labels = json.load(
         open(os.path.join(scan_dir, "instance_id_to_name", f"{scan_id}.json"))
