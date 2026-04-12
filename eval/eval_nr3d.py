@@ -89,6 +89,8 @@ def main(pred_dir):
 
 
 if __name__ == '__main__':
-
-    pred_dir = '/root/Qwen2-VL/seeground_results/nr3d/val/qwen2-vl-72b/pred'
-    main(pred_dir)
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--pred_dir', required=True)
+    args = parser.parse_args()
+    main(args.pred_dir)
