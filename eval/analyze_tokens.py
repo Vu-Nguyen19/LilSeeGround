@@ -50,7 +50,10 @@ def analyze(pred_dir, model_name, runtime_min, iou_thresh=0.25):
     print(f'\n--- Accuracy ---')
     print(f'  Acc@25:        {correct_25/n_queries:.2%}  ({correct_25}/{n_queries})')
     print(f'  Acc@50:        {correct_50/n_queries:.2%}  ({correct_50}/{n_queries})')
-    print(f'  Unique@25:     {unique_correct_25/unique_total:.2%}  ({unique_correct_25}/{unique_total})')
+    if unique_total > 0:
+        print(f'  Unique@25:     {unique_correct_25/unique_total:.2%}  ({unique_correct_25}/{unique_total})')
+    else:
+        print(f'  Unique@25:     N/A (no unique queries in sample)')
 
     print(f'\n--- Runtime ---')
     print(f'  Total time:    {runtime_min:.1f} min')
