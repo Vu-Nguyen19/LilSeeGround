@@ -1,0 +1,45 @@
+# SeeGround dependencies
+# Install PyTorch first with the appropriate CUDA version:
+# pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu118
+#
+# Then install the rest:
+# pip install -r requirements.txt
+#
+# Finally install pytorch3d (takes ~15 minutes to compile):
+# pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
+
+# Core
+numpy<2.0
+torch==2.1.0
+torchvision==0.16.0
+
+# 3D / Vision
+open3d
+opencv-python
+scipy
+pillow
+plyfile
+
+# NLP
+nltk
+
+# Data / Utils
+openai
+pandas
+tqdm
+pyyaml
+easydict
+h5py
+matplotlib
+wandb
+pyvista
+ninja
+gdown
+tensorboard
+termcolor
+multimethod
+deepspeed
+jsonlines
+pickleshare
+protobuf
+Cython
