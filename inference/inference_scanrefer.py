@@ -83,7 +83,12 @@ def process_query(
 
     chat_response = client.chat.completions.create(model=model_name, messages=messages)
     result = chat_response.choices[0].message.content
-    return result.replace("\\n", "\n")
+    usage = {
+        "prompt_tokens": chat_response.usage.prompt_tokens,
+        "completion_tokens": chat_response.usage.completion_tokens,
+        "total_tokens": chat_response.usage.total_tokens,
+    }
+    return result.replace("\\n", "\n"), usage
 
 
 def process_room(
@@ -188,7 +193,7 @@ def process_room(
 
 
         # Process query with OpenAI
-        response = process_query(
+        response, usage = process_query(
             query,
             objects_info,
             openai_api_key,
@@ -226,6 +231,7 @@ def process_room(
                 "parsed_query": d["parsed_query"],
                 "explanation": explanation,
                 "unique": d["unique"],
+                "token_usage": usage,
             }
         )
 
