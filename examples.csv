@@ -1,0 +1,147 @@
+outcome,scene_id,query_idx,gt_id,pred_id_4b,iou_4b,pred_id_2b,iou_2b,query,image
+2B_wins,scene0063_00,1,13,37,0.073,1,0.982,a modern light wood color table placed against the wall. it is to the left of the tv on the wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0063_00/1/rendered.png
+2B_wins,scene0064_00,4,10,21,0.002,23,0.266,"it is a brown wooden square shelf. divided on squares, on the side of the wall.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0064_00/4/rendered.png
+2B_wins,scene0077_00,0,9,1,0.0,7,1.0,a brown door. an open door.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0077_00/0/rendered.png
+2B_wins,scene0084_00,0,10,18,0.0,11,1.0,this is a round trash can. it is under the counter top.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0084_00/0/rendered.png
+2B_wins,scene0100_00,3,8,32,0.0,42,1.0,"the step stool is blue and white and, plastic. the stool is in front of the tub.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0100_00/3/rendered.png
+2B_wins,scene0153_00,0,1,27,0.051,2,0.707,this is a sink. the sink is attached close to wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0153_00/0/rendered.png
+2B_wins,scene0153_00,1,2,24,0.0,27,0.941,the small bathroom cabinet. the cabinet is next to the towel.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0153_00/1/rendered.png
+2B_wins,scene0164_00,2,43,66,0.0,3,0.888,there is a microwave on a counter top. it is in the corner.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0164_00/2/rendered.png
+2B_wins,scene0196_00,2,12,27,0.0,14,0.843,the little armchair. the hair is under the table in the middle on the right.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0196_00/2/rendered.png
+2B_wins,scene0203_00,2,14,74,0.0,40,0.976,this is a white pillow on a bean bag. it is square shaped.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0203_00/2/rendered.png
+2B_wins,scene0207_00,4,65,97,0.0,77,0.837,there is a white plastic bath tub. placed on the side of the bathroom.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0207_00/4/rendered.png
+2B_wins,scene0208_00,4,106,187,0.0,102,0.564,there are some bookshelves full of books. they are to the right of the bench.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0208_00/4/rendered.png
+2B_wins,scene0221_00,0,4,43,0.0,35,0.935,the office chair is left of the hexagonal table. the office chair is black and has armrests.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0221_00/0/rendered.png
+2B_wins,scene0222_00,0,6,32,0.0,11,0.865,the desk chair is brown with a blue cushion. it goes with the brown desk in the image.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0222_00/0/rendered.png
+2B_wins,scene0222_00,3,28,91,0.0,4,0.457,the window has blinds on it. it is to the right of the bed in the room.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0222_00/3/rendered.png
+2B_wins,scene0256_00,0,0,23,0.0,3,0.975,there is a white table. it is near the side of the room and has a sewing machine on it.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0256_00/0/rendered.png
+2B_wins,scene0257_00,3,17,22,0.0,21,0.6,there is a black chair. it is the second chair from the right in the first row of chairs.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0257_00/3/rendered.png
+2B_wins,scene0314_00,1,0,8,0.0,7,0.983,this piece of furniture is brown with oval holes. it is behind a black rolling chair.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0314_00/1/rendered.png
+2B_wins,scene0314_00,3,8,4,0.0,5,1.0,the office chair is the southeastern-most one next to the round table. the office chair is brown and has five legs.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0314_00/3/rendered.png
+2B_wins,scene0328_00,2,16,28,0.0,8,0.341,"a dark brown wooden wall cabinet, in the corner of the room. it is located above and to the left of the stove.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0328_00/2/rendered.png
+2B_wins,scene0334_00,3,7,5,0.0,7,0.916,there is a brown wooden bench. placed in the middle of the room.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0334_00/3/rendered.png
+2B_wins,scene0342_00,4,25,21,0.133,13,1.0,it is one of the brown chairs that are connected together. it is located at the very back of the room from the right side wall it will be the second chair to your left at the top row.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0342_00/4/rendered.png
+2B_wins,scene0353_00,4,47,31,0.0,27,0.889,it is a bed above a brown desk. the bed is made from wood.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0353_00/4/rendered.png
+2B_wins,scene0354_00,0,3,3,0.0,21,1.0,this is a black chair. it is to the left of a red chair.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0354_00/0/rendered.png
+2B_wins,scene0354_00,1,4,24,0.0,22,1.0,there is a black arm chair. placed in front of the table.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0354_00/1/rendered.png
+2B_wins,scene0355_00,4,15,11,0.0,7,1.0,the table is brown and round. it is on the right side of the room.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0355_00/4/rendered.png
+2B_wins,scene0377_00,4,18,9,0.0,0,0.868,there is a window. placed on the corner of the wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0377_00/4/rendered.png
+2B_wins,scene0406_00,4,29,12,0.0,19,0.445,there is a white bath towel hanging on the side of the tub.  it is next to the shower curtain near the tub faucet.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0406_00/4/rendered.png
+2B_wins,scene0412_00,1,8,0,0.0,6,1.0,this is a traffic cone in the corner. it is orange.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0412_00/1/rendered.png
+2B_wins,scene0412_00,4,19,28,0.0,0,1.0,there is a brown single door in the hallway. there is a trash can to the left of this door.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0412_00/4/rendered.png
+2B_wins,scene0432_00,1,2,1,0.0,5,0.986,it is a blue sofa chair. it is diagonal to the coffee table.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0432_00/1/rendered.png
+2B_wins,scene0461_00,1,1,0,0.0,7,1.0,there is a large square grey armchair in the corner of the room. it is directly next to a coffee table.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0461_00/1/rendered.png
+2B_wins,scene0474_00,0,0,31,0.0,5,1.0,the computer tower is under the desk. it is on the far left side.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0474_00/0/rendered.png
+2B_wins,scene0488_00,1,9,11,0.0,10,1.0,a white wooden shelf. on the right to the stove.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0488_00/1/rendered.png
+2B_wins,scene0494_00,0,1,12,0.0,10,0.696,this chair is on the top left corner. it is facing the table.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0494_00/0/rendered.png
+2B_wins,scene0494_00,1,3,9,0.0,12,0.795,this chair is partially covered. it is facing right.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0494_00/1/rendered.png
+2B_wins,scene0518_00,1,1,7,0.0,36,0.599,"on the wall that is half blue, half white are several square-shaped shelves. they are at different heights and vary in color. most have objects in them such as books.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0518_00/1/rendered.png
+2B_wins,scene0518_00,4,8,36,0.0,6,0.559,there is a set of white drawers in the upper right hand corner of the room. it is between the white desk and blue wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0518_00/4/rendered.png
+2B_wins,scene0565_00,3,35,62,0.0,20,0.255,this shelf is disfigured. it is tan.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0565_00/3/rendered.png
+2B_wins,scene0574_00,3,25,29,0.0,5,0.436,this is a white towel. it is in between two other towels.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0574_00/3/rendered.png
+2B_wins,scene0574_00,4,25,29,0.0,5,0.436,this is a white towel. it is in the center of the towels.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0574_00/4/rendered.png
+2B_wins,scene0599_00,3,18,5,0.0,19,0.96,this chair is on the top left. it is facing right.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0599_00/3/rendered.png
+2B_wins,scene0609_00,1,5,0,0.0,1,0.978,there is a rectangular wooden table. it is surrounded by chairs and at the wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0609_00/1/rendered.png
+2B_wins,scene0609_00,2,5,0,0.0,1,0.978,there is a rectangular wooden table. it is surrounded by chairs.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0609_00/2/rendered.png
+2B_wins,scene0609_00,3,5,0,0.0,1,0.978,the table is rectangular. there are two chairs facing it.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0609_00/3/rendered.png
+2B_wins,scene0618_00,3,18,18,0.0,16,0.94,"a long, narrow side table up against the wall. there is an electrical outlet to the left. the pool table is visible to the right.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0618_00/3/rendered.png
+2B_wins,scene0629_00,4,17,15,0.0,38,0.598,shelves sit in a recess in the wall. they are to the left of a painting on the wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0629_00/4/rendered.png
+2B_wins,scene0643_00,1,13,82,0.182,17,0.969,this is a standard black computer monitor. it is located on the small desk in between the two white book shelves (one of which is behind the door. .,outputs/scanrefer_qwen3vl_4b/projection_img/scene0643_00/1/rendered.png
+2B_wins,scene0648_00,3,31,48,0.0,16,0.784,"the small desk is located between two beds. the desk is made from wood and is the color brown. on top of the desk, there is a laptop and headphones.  the desk is in front of the window.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0648_00/3/rendered.png
+2B_wins,scene0660_00,0,3,0,0.0,6,0.975,a black leather chair. next to the wooden table.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0660_00/0/rendered.png
+2B_wins,scene0660_00,2,4,3,0.0,1,1.0,the black chair is on the left side of the desk. it is the second chair from the right.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0660_00/2/rendered.png
+2B_wins,scene0671_00,3,8,12,0.014,7,1.0,there is a rectangular pillow. it is in front of a gray table and right of another pillow.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0671_00/3/rendered.png
+2B_wins,scene0689_00,0,0,20,0.013,11,0.6,the window is behind the table in the middle of the room. there is a red wall to the left of the window.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0689_00/0/rendered.png
+2B_wins,scene0690_00,1,11,6,0.0,3,1.0,it is a small black lamp with a white shade. it is on an end table near the sofa.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0690_00/1/rendered.png
+2B_wins,scene0693_00,1,9,43,0.0,34,0.901,there is a white door with a mirror on it. it is to the right of the box of cat litter with the green top.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0693_00/1/rendered.png
+2B_wins,scene0695_00,2,8,24,0.068,21,0.673,the rolling office chair. the chair is in front of the desk.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0695_00/2/rendered.png
+4B_wins,scene0015_00,4,36,28,0.998,34,0.0,there is a beige wooden desk. placed on the side of the wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0015_00/4/rendered.png
+4B_wins,scene0019_00,0,9,4,0.94,11,0.0,it is next to the tall floor lamp. it is a snack machine and it is full of tasty snacks. it is over by the door. the floor lamp next to it is in the corner of  the room. the machine is tall and brown. it has a glass front.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0019_00/0/rendered.png
+4B_wins,scene0025_00,2,15,17,0.966,8,0.0,"the cabinet is next to the couch. it is located on the right side of the couch, against the wall.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0025_00/2/rendered.png
+4B_wins,scene0025_00,3,30,62,1.0,5,0.0,the keyboard is sitting on top of the desk. it is in front of the left-side monitor.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0025_00/3/rendered.png
+4B_wins,scene0025_00,4,30,62,1.0,34,0.0,the keyboard sits atop the workstation desk. it is located in front of the left-side monitor.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0025_00/4/rendered.png
+4B_wins,scene0046_00,0,4,18,1.0,88,0.201,this is the tall  brown cabinet next to the blue plaid curtains. it is the wardrobe next to the window.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0046_00/0/rendered.png
+4B_wins,scene0046_00,2,21,34,1.0,93,0.0,this is down at the end of a long hallway. it is between two doors. it is black. it is the black door at the end of the hallway.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0046_00/2/rendered.png
+4B_wins,scene0050_00,1,11,30,1.0,31,0.0,"this is a brown ottoman in front of a brown sofa. the ottoman has a black back pack,and a black duffel bag,and a box of tissues.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0050_00/1/rendered.png
+4B_wins,scene0063_00,2,13,1,0.982,16,0.073,a light wood color table is next to the wall. there is a chair to the left of it.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0063_00/2/rendered.png
+4B_wins,scene0064_00,0,2,6,0.887,0,0.0,is is a brown wooden square table. placed in the middle of the room.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0064_00/0/rendered.png
+4B_wins,scene0077_00,4,22,20,0.932,29,0.0,a white machine. in front of the lavatory.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0077_00/4/rendered.png
+4B_wins,scene0081_00,1,1,4,1.0,5,0.0,"a small red chair. it's shape is square, and it is next to a long blue couch.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0081_00/1/rendered.png
+4B_wins,scene0081_00,3,6,1,0.978,0,0.0,a round brown table. it is next to a red squared chair.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0081_00/3/rendered.png
+4B_wins,scene0086_00,0,6,8,1.0,6,0.0,this is an average looking white toilet like what you would find in an office building or store. it is round and below the rail in the stall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0086_00/0/rendered.png
+4B_wins,scene0086_00,4,18,24,0.955,12,0.0,this is a tan paper towel dispenser. it's a mostly square shape and is to the right of both sinks.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0086_00/4/rendered.png
+4B_wins,scene0131_00,0,6,31,1.0,29,0.0,we are looking for the brown office chair with wheels . it is not pushed all the way in under the table but is in front of the corner  where the   l shaped desk  bends.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0131_00/0/rendered.png
+4B_wins,scene0131_00,1,6,31,1.0,32,0.0,a black office chair. it is in between with the same chair.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0131_00/1/rendered.png
+4B_wins,scene0139_00,2,17,1,1.0,11,0.0,"a door, on the right hand side is a small washbasin  . the left hand side is nothing.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0139_00/2/rendered.png
+4B_wins,scene0144_00,0,1,14,0.526,48,0.006,"this is a brown wood table, set against a wall. the table is to the right of a bed.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0144_00/0/rendered.png
+4B_wins,scene0149_00,3,10,28,0.53,3,0.0,"this is a dark brown kitchen cabinet with a tan counter top. this kitchen cabinet is under the sink and, to the left of the dishwasher.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0149_00/3/rendered.png
+4B_wins,scene0169_00,3,29,22,0.829,0,0.0,there is a chair with it's back to the wall. it is the chair all the way to the left of the row of similar chairs. .,outputs/scanrefer_qwen3vl_4b/projection_img/scene0169_00/3/rendered.png
+4B_wins,scene0169_00,4,44,2,1.0,7,0.0,this is a black chair. it is to the left of another chair.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0169_00/4/rendered.png
+4B_wins,scene0187_00,1,8,6,0.909,3,0.0,this rectangular table is directly to the right of and very near the yellow seat and to the left of a backpack. table is the second table from the rear wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0187_00/1/rendered.png
+4B_wins,scene0187_00,2,9,19,1.0,14,0.0,the coffee table is just to the left of center of the back wall of the room. the coffee table is directly in front of a chair with circular black workspace arm and to the right of a red seat.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0187_00/2/rendered.png
+4B_wins,scene0203_00,1,7,15,0.776,19,0.0,this is a wooden shelf with something blue on top. it has three separate compartments.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0203_00/1/rendered.png
+4B_wins,scene0207_00,3,19,31,0.332,109,0.0,"a beige colored counter with various items on it, flat and smooth and l shaped. . it is in the kitchen area to the right of the stove.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0207_00/3/rendered.png
+4B_wins,scene0208_00,1,9,122,0.306,107,0.0,"black magazine rack, next to so a silver magazine rack. both are at the end of the bookshelf closest to the wall.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0208_00/1/rendered.png
+4B_wins,scene0221_00,2,8,7,0.647,3,0.0,there is a brown bed cover. covering the double bed.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0221_00/2/rendered.png
+4B_wins,scene0222_00,2,28,4,0.457,91,0.0,another similar window can be seen on the right of this window. a fan is present in front of another window. .,outputs/scanrefer_qwen3vl_4b/projection_img/scene0222_00/2/rendered.png
+4B_wins,scene0251_00,1,12,1,1.0,24,0.0,the trash can is the farthest left one out of a row of cans. the trash can is a gray rectangular prism.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0251_00/1/rendered.png
+4B_wins,scene0251_00,2,13,18,0.955,21,0.0,the door is right of a gray trash can. the door is a brown rectangle.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0251_00/2/rendered.png
+4B_wins,scene0257_00,2,10,18,0.642,1,0.0,the second chair from left in the front row. the chair is in the front row two seats in.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0257_00/2/rendered.png
+4B_wins,scene0278_00,4,14,7,0.877,8,0.0,these cabinets are installed under black counter top. a paper cutter is present above these cabinets.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0278_00/4/rendered.png
+4B_wins,scene0300_00,3,6,28,0.626,2,0.006,the table has a blue backpack on it. the table is to the left of a grey trash can on the floor.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0300_00/3/rendered.png
+4B_wins,scene0307_00,0,8,39,0.562,111,0.0,there is a white table. placed on the right to the door.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0307_00/0/rendered.png
+4B_wins,scene0334_00,0,3,6,0.536,1,0.036,there are brown round leather seats. placed in front of the round table.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0334_00/0/rendered.png
+4B_wins,scene0334_00,4,8,5,0.945,7,0.0,there is a brown wooden bench. placed next to another same bench.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0334_00/4/rendered.png
+4B_wins,scene0338_00,2,2,10,0.805,11,0.0,a black cabinet sits in the corner. it's to the right of some cardboard boxes.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0338_00/2/rendered.png
+4B_wins,scene0342_00,0,2,21,1.0,13,0.133,it is a brown chair it is located on the top row. it is the first chair from the right side of the room and to your left if you were standing in front of it.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0342_00/0/rendered.png
+4B_wins,scene0343_00,2,13,9,0.362,22,0.0,a six shelved storage unit mounted to the back wall.  it has a combination of flat shelves and tubs for storage and is white in color with clear shelves and tubs.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0343_00/2/rendered.png
+4B_wins,scene0351_00,0,1,4,0.909,47,0.0,there is a black arm chair. placed in front of the working table.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0351_00/0/rendered.png
+4B_wins,scene0353_00,0,4,2,0.983,23,0.0,the chair has blue fabric and is made out of wood. it is located next to the desk.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0353_00/0/rendered.png
+4B_wins,scene0353_00,1,5,20,0.435,2,0.0,the chair has an orange shirt on it. the chair is made out of a dark wood.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0353_00/1/rendered.png
+4B_wins,scene0356_00,3,17,19,0.834,7,0.128,there is a white plastic basket. placed between another same baskets.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0356_00/3/rendered.png
+4B_wins,scene0378_00,1,1,62,0.84,69,0.063,"it is a gray file cabinet in the far corner of the room, to the right of a desk. there is a printer sitting on top of it.",outputs/scanrefer_qwen3vl_4b/projection_img/scene0378_00/1/rendered.png
+4B_wins,scene0435_00,0,32,9,1.0,13,0.003,it is a trash can. it is beside the water closet on the left side under the toilet roll holder.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0435_00/0/rendered.png
+4B_wins,scene0458_00,3,14,3,0.985,38,0.0,there is a slightly beige towel hanging on the wall. to the right of the towel is a ladder and to the left is the vanity and sink.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0458_00/3/rendered.png
+4B_wins,scene0461_00,4,4,4,0.995,8,0.0,there is a dark brown square coffee table. it is not touching any other furniture in the room.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0461_00/4/rendered.png
+4B_wins,scene0488_00,3,14,13,0.676,2,0.0,a white wooden cabinet. above the fridge.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0488_00/3/rendered.png
+4B_wins,scene0518_00,2,3,1,1.0,4,0.0,there is a black office chair with mesh backing directly in front of the white desk. to its right is another black chair that has a yellow backpack hanging on it.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0518_00/2/rendered.png
+4B_wins,scene0527_00,2,6,7,1.0,5,0.0,the bathroom vanity is brown with a white counter top. it is to the right of the picture.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0527_00/2/rendered.png
+4B_wins,scene0527_00,4,23,37,0.364,40,0.0,the towel is white and hanging on the hook. it is the second one from the right.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0527_00/4/rendered.png
+4B_wins,scene0549_00,0,1,2,0.863,7,0.0,a green couch. between two round wooden tables.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0549_00/0/rendered.png
+4B_wins,scene0549_00,2,3,19,1.0,2,0.0,a beige wooden table. in front of the couch.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0549_00/2/rendered.png
+4B_wins,scene0552_00,4,13,26,1.0,19,0.0,the kitchen black cabinets are under the counter top. the cabinets are to the right of the refrigerator.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0552_00/4/rendered.png
+4B_wins,scene0558_00,0,4,30,0.956,49,0.0,the object is a brown shelf. it wraps around both sides of the table against the wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0558_00/0/rendered.png
+4B_wins,scene0565_00,0,22,31,0.984,34,0.0,this cart is on the right side. it is brown.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0565_00/0/rendered.png
+4B_wins,scene0568_00,1,6,9,0.967,33,0.0,a green wooden table. next to the window.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0568_00/1/rendered.png
+4B_wins,scene0575_00,4,19,8,0.859,2,0.0,a tv hangs from the wall. it's to the right of another tv just like it.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0575_00/4/rendered.png
+4B_wins,scene0578_00,0,6,3,0.826,1,0.0,the chair brown and wooden. it is the first chair from the left.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0578_00/0/rendered.png
+4B_wins,scene0578_00,1,6,3,0.826,1,0.0,the chair is brown. the chair is on the left of the table.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0578_00/1/rendered.png
+4B_wins,scene0598_00,1,4,27,0.922,22,0.0,a white wooden shelf. on the side of the room.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0598_00/1/rendered.png
+4B_wins,scene0598_00,4,18,40,0.469,22,0.0,a light green curtain. on the left window.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0598_00/4/rendered.png
+4B_wins,scene0606_00,0,4,3,1.0,32,0.0,the chair is the south-most one on the left-most table. the chair is dark brown with four legs.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0606_00/0/rendered.png
+4B_wins,scene0606_00,2,23,32,0.929,9,0.0,the sofa chair is on the northwest side of the room. the sofa chair dark brown and has four legs.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0606_00/2/rendered.png
+4B_wins,scene0607_00,1,10,1,1.0,2,0.0,this brown chair is facing left. it is in the middle.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0607_00/1/rendered.png
+4B_wins,scene0609_00,0,2,2,1.0,6,0.0,the chair is facing the table. it is located to the right of the chair beside it.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0609_00/0/rendered.png
+4B_wins,scene0618_00,2,7,3,0.999,7,0.0,there is the brown chair with its back against a black chair. it is the brown chair farthest from the white wall. .,outputs/scanrefer_qwen3vl_4b/projection_img/scene0618_00/2/rendered.png
+4B_wins,scene0629_00,0,0,4,0.933,3,0.0,a door sits to the right of a painting on the wall. it's partially standing open.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0629_00/0/rendered.png
+4B_wins,scene0645_00,2,37,57,0.939,27,0.001,the cabinet is square and dark brown. it is under the tv.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0645_00/2/rendered.png
+4B_wins,scene0645_00,4,79,45,0.906,54,0.0,the shower curtain is tall and white. it is to the right of the bathtub.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0645_00/4/rendered.png
+4B_wins,scene0648_00,0,13,61,0.433,44,0.174,the closet is not very deep.  there are brown shelves to the right/front of the closet. there is a plant on the top shelf.  there are multiple towels hanging inside the closet.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0648_00/0/rendered.png
+4B_wins,scene0655_00,1,2,5,1.0,16,0.0,the office chair is blue. the back of it is towards the blackboard. the office chair is to the right of the yellow chair next to it.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0655_00/1/rendered.png
+4B_wins,scene0655_00,3,6,4,1.0,14,0.0,the office chair is yellow. it is to the left of the chair beside it.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0655_00/3/rendered.png
+4B_wins,scene0663_00,3,33,75,0.781,39,0.0,the chair is red and green. it is to the right of the black chair.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0663_00/3/rendered.png
+4B_wins,scene0665_00,3,31,53,0.325,56,0.0,a brown wooden desk. on the right to another same desk.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0665_00/3/rendered.png
+4B_wins,scene0670_00,3,20,51,0.847,21,0.0,one of three similar sized pictures arranged vertically on the wall. it is the one on the very bottom.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0670_00/3/rendered.png
+4B_wins,scene0686_00,0,3,4,0.988,7,0.0,the bathroom stall door is the right-most one in the room. the bathroom staff door is brown and rectangular.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0686_00/0/rendered.png
+4B_wins,scene0689_00,4,13,22,1.0,19,0.0,the red and black chair is on the right side of the table. it is in the middle with a chair on each side.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0689_00/4/rendered.png
+4B_wins,scene0690_00,2,16,11,1.0,9,0.041,it is a brown armchair. it is in the middle of the room near an identical armchair.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0690_00/2/rendered.png
+4B_wins,scene0690_00,3,16,11,1.0,9,0.041,it is a brown armchair. it is located in the middle of the room next to an identical armchair.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0690_00/3/rendered.png
+4B_wins,scene0693_00,3,19,43,0.757,42,0.0,there is a clear shower door with silver trim. it is slid to the left side of the shower.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0693_00/3/rendered.png
+4B_wins,scene0695_00,3,15,19,0.258,18,0.02,the dull gross pillow. the pillow is on top of the bed.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0695_00/3/rendered.png
+4B_wins,scene0696_00,0,3,44,0.378,7,0.0,this is a white internal door with glass pannel. right in the middle of the back wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0696_00/0/rendered.png
+4B_wins,scene0696_00,3,10,78,0.865,56,0.0,this is a brown wooden chair with dark seat. its located at the corner of the table at the end of the table.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0696_00/3/rendered.png
+4B_wins,scene0697_00,3,15,40,0.606,36,0.0,this is a storage bin. the storage bin is close to wall.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0697_00/3/rendered.png
+4B_wins,scene0699_00,1,24,0,1.0,36,0.0,there is a rectangular picture. it is hanging over a bed.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0699_00/1/rendered.png
+4B_wins,scene0702_00,1,7,2,0.465,0,0.0,the toilet paper is right of the toilet. the toilet paper is white and round.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0702_00/1/rendered.png
+4B_wins,scene0702_00,3,8,2,0.3,7,0.0,the toilet paper is right of the toilet. the toilet paper is a white cylinder.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0702_00/3/rendered.png
+4B_wins,scene0704_00,0,0,12,0.911,71,0.0,the light tan rolling cart is great for moving small office boxes or copy paper around the office place. the cart is located between the tan cabinet and the water refill jugs.,outputs/scanrefer_qwen3vl_4b/projection_img/scene0704_00/0/rendered.png
